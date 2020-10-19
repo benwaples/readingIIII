@@ -82,3 +82,5 @@ Webpack help with making code compatible with more browsers, and browser version
 Webpack makes JSX into js
 
 ## [React Hello World](https://reactjs.org/docs/hello-world.html)
+
+## [JSX intro](https://reactjs.org/docs/introducing-jsx.html)
