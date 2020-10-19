@@ -83,7 +83,13 @@ it('renders correctly', () => {
 
 First time the test is run, the reference snap shot will be taken, each test there after will be compared to the reference snap shot. 
 
-* if the implementation of the component has changed, so the UI changed, the test will fail. To update the reference snapshot, run `Jest --updateSnapshot'.
+* if the implementation of the component has changed, so the UI changed, the test will fail. To update the reference snapshot, run `Jest --updateSnapshot`.
 
-## [React Testing Library]()
+## [React Testing Library](https://kentcdodds.com/blog/introducing-the-react-testing-library)
+why did the author chose that goat picture... so creepy and evil.
+`react-testing-library` is better at testing for the intended function of a React component, instead of the implementation details. This way, when refactoring components, the test wont break due to small implementation changes.
 
+> So rather than dealing with instances of rendered react components, your tests will work with actual DOM nodes.
+* applications turn out more accessible and have your tests working more like a user.
+
+### super long test
