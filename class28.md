@@ -43,7 +43,17 @@ Mutually exclusive components that come together to make one big application. Op
 >presentations : are stateless components that present your data
 * receive data through props and render DOM elements
 
-## [Container Details]()
-## [Presentation Details]()
-## [Functional vs Class Components]()
-## [Conditional Rendering]()
+## [Container Details](https://alchemycodelab.github.io/fsjs-notes/05_react/patterns/container_presentation/container-details)
+Containers extend reacts Component class. That way it has lifecycle hooks and all the other state managing tools that come with that class.
+
+## [Presentation Details](https://alchemycodelab.github.io/fsjs-notes/05_react/patterns/container_presentation/presentation-details)
+Functional components, returning the JSX or TSX from the function.
+
+## [Functional vs Class Components](https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108)
+Why use functional components at all:
+* Functional components are easier to read and test because they are plain JS.
+* less code
+* help other developers know which components manage state.
+* React says there could performance benefits to functional components down the road.
+
+## [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
