@@ -57,3 +57,6 @@ Why use functional components at all:
 * React says there could performance benefits to functional components down the road.
 
 ## [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+Easily have conditional rendering based on user state and input by storing JSX in variables.
+
+Use conditional operators to have react decide what to render for the component.
