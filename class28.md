@@ -23,7 +23,26 @@ Designed around the events. Emmitters know the event has happened, a consumer ju
 
 * Often used in async operations and UIs.
 
-## [Container Presentation Pattern]()
+### Domain Driven Design(DDD)
+Software designed after the business domain.
+> DDD isn't a way to code but a way to think about things.
+
+### Pipes and Filters
+Filters are components that transform the data and change the shape and pipes are the things connecting the components.
+
+Pump produces the data.
+
+Sink consumes the data, or is the final stop for the data.
+
+### Microservice
+Mutually exclusive components that come together to make one big application. Opposite of a monolithic architecture that every component depends on each other.
+
+## [Container Presentation Pattern](https://alchemycodelab.github.io/fsjs-notes/05_react/patterns/container_presentation/)
+>containers : are stateful components that contain your business login
+* manage all of the business logic like hitting APIs, setting up props, munging data, and setting up event handlers.
+>presentations : are stateless components that present your data
+* receive data through props and render DOM elements
+
 ## [Container Details]()
 ## [Presentation Details]()
 ## [Functional vs Class Components]()
