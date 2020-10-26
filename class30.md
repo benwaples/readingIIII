@@ -24,5 +24,20 @@ const [animal, useAnimal] = useState()
 <label htmlFor="animal">Whats your Favorite Animal
 <input type="text" name="animal" onChange={() => useAnimal(value)}>
 ```
-## [Effect Hooks]()
-## [Hooks API reference]()
+## [Effect Hooks](https://reactjs.org/docs/hooks-effect.html)
+more on `useEffect()`
+
+These behave like lifecycle hooks, found in class components, and are used in function components.
+
+* `useEffect()` is run on the first render and then every update after that. So think of it as an 'after render'
+
+* cleanup is when the app must execute code after the component mounted in order to break a connection, or unsubscribe from an API.
+ - I have no clue what `document.title` grabs because in the example code they are grabbing a p tag.
+ - for cases where you do need to clean up, pass `useEffect()` an arrow function. 
+
+
+ 
+
+## [Hooks API reference](https://reactjs.org/docs/hooks-reference.html)
+
+Source for all hooks.
